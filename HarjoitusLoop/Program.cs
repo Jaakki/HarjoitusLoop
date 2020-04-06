@@ -112,6 +112,7 @@ namespace HarjoitusLoop
             foreach (var person in persons)
             {
                 int sum = 0;
+
                 foreach (var hobby in person.hobbies)
                 {
                     sum += hobby.monthlyCost;
